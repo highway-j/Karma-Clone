@@ -119,21 +119,21 @@ button {
   margin-top: 1.563rem;
 }
 
-ul {
-  list-style: none;
-  display: block;
-  -webkit-margin-before: 1em;
-  -webkit-margin-after: 1em;
-  -webkit-margin-start: 0px;
-  -webkit-margin-end: 0px;
-  -webkit-padding-start: 40px;
-}
-
-.mainContent .devices > li {
+.mainContent .devices {
   width: 33.3333333%;
-  float: left;
+  display: inline-block;
   text-align: center;
 }
+
+.page-wrap {
+  display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+  display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+  display: -ms-flexbox;      /* TWEENER - IE 10 */
+  display: -webkit-flex;     /* NEW - Chrome */
+  display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
+}
+
+
 /* HTML5 display definitions
    ========================================================================== */
 
