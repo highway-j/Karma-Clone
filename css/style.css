@@ -78,7 +78,7 @@ html {
 
 body {
   margin: 0;
-  background-color: LightGray;
+  background-color: white;
 }
 
 .window {
@@ -133,7 +133,46 @@ button {
   display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
+.mainFooter {
+  text-align: center;
+  border-top: 1px #eee solid;
+  height: 200px;
+}
 
+.mainFooter p {
+  padding-top: 30px;
+}
+
+.icons {
+  list-style: none;
+}
+
+.content .icons > li {
+  border-radius: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  display: inline-block;
+  margin: 1.25rem 5px;
+  border: 1px solid #eaebec;
+  padding: 0.625rem 0;
+  text-align: center;
+  }
+
+.content .twitter {
+  color: #55acee;
+}
+
+.content .facebook {
+  color: #4c66a4;
+}
+
+.content .instagram {
+  color: #3f729b;
+}
+
+.mainFooter ul {
+  padding: 0;
+}
 /* HTML5 display definitions
    ========================================================================== */
 
